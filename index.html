@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- TailwindCSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS Integration -->
+    <link rel="stylesheet" href="style.css">
+    <title>Penguine Fashion</title>
+</head>
+
+<body>
+    <header class="container-fluid mx-auto bg-pink-50 bg-image">
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <img src="./images/logo.png" alt="..." class="w-60">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 w-full text-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Banner Start -->
+        <section class="flex p-12 lg:flex-row flex-col-reverse justify-center lg:gap-2 gap-6">
+            <div class="flex justify-center items-center lg:w-1/2 w-full">
+                <div class="text-center">
+                    <h1 class="lg:text-6xl text-4xl font-bold text-[#fabe4c] uppercase">Be the penguins</h1>
+                    <h1 class="lg:text-6xl text-4xl font-bold text-[#a4bc46] uppercase">Of Winter</h1>
+                    <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ipsum odio eius?
+                        Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button class="bg-[#a4bc46] text-white px-4 py-2 rounded-lg font-bold">
+                        <img src="./images/shopping-cart.png" alt="..." class="inline w-8">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+            <div class="flex justify-center items-center lg:w-1/2 w-full">
+                <div>
+                    <img src="./images/model.png" alt="..." class="w-full">
+                </div>
+            </div>
+        </section>
+        <!-- Banner End -->
+    </header>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

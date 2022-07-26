@@ -1,0 +1,7 @@
+.bg-image {
+    background-image: url("./images/bg-dot.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    background-position-x: 30%;
+}
